@@ -1,11 +1,24 @@
+/* Custom Properties */
+
+:root {
+    --oneColor:rgb(125,125,0);
+    --twoColor:rgb(80,200,55);
+    --threeColor:rgb(30,150,180);
+    --fourColor:rgb(200,20,20);
+}
+
+
+
+
+
 .underline {
     text-decoration: underline;
 }
 h1 {
-    color: darkblue;
+    color: var(--oneColor);
 }
 h2 {
-    color: chocolate;
+    color: var(--fourColor);
 }
 
 a {
@@ -13,14 +26,14 @@ a {
     padding: 5px;
 }
 .heading {
-    background-color: orangered;
+    background-color: var(--fourColor);
     text-align: center;
 }
 h1 h2 h3 {
     font-family: 'Times New Roman', Times, serif;
 }
 p {
-    color: maroon;
+    color: var(--twoColor);
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -36,14 +49,10 @@ strong {
     color: red;
 }
 body {
-    background-color: aqua;
+    background-color: var(--threeColor);
 }
 .forgot::selection {
     color: blanchedalmond;
-}
-
-:root {
-    margin: 2%;
 }
 
 h2::before {
