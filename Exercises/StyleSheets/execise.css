@@ -1,27 +1,52 @@
 .underline {
     text-decoration: underline;
 }
-
+h1 {
+    color: darkblue;
+}
 h2 {
     color: chocolate;
 }
 
+a {
+    text-align: center;
+    padding: 5px;
+}
 .heading {
     background-color: orangered;
     text-align: center;
 }
-
+h1 h2 h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
 p {
     color: maroon;
     font-family: 'Times New Roman', Times, serif;
 }
 
+img {
+    size: 4rem;
+}
 
+.me {
+    border: 30px double goldenrod ;
+}
 
 strong {
     color: red;
+}
+body {
+    background-color: aqua;
+}
+.forgot::selection {
+    color: blanchedalmond;
 }
 
 :root {
     margin: 2%;
 }
+
+h2::before {
+    content:url('https://pin.it/4l1l3KL')
+}
+
